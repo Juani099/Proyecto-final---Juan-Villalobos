@@ -10,9 +10,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/main.scss css/style.css",
-"watch-css": "nodemon -e scss -x \"npm run build-css\""
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juani099/Proyecto-final---Juan-Villalobos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Juani099/Proyecto-final---Juan-Villalobos/issues"
+  },
+  "homepage": "https://github.com/Juani099/Proyecto-final---Juan-Villalobos#readme",
   "description": ""
 }
