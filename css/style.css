@@ -73,6 +73,151 @@ transform: scale(1.1);
   text-shadow: 2px 2px gray;
 }
 
+/* Fondo perros */
+
+.fondo-indexg{
+  height: 53rem;  
+  background-image: url(../Img/Fondo-alimentog.jpg);  
+  background-repeat: no-repeat;  
+  background-size: cover;   
+  background-position: center;  
+  background-attachment: fixed; 
+}
+
+.indexcontg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  color: rgb(255, 255, 255);
+}
+
+.indexcontg h2 {
+  margin-top: 20rem;
+  text-shadow: 3px 3px gray;
+}
+
+.sub-in {
+  font-size: 60px;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px gray;
+}
+
+.sub-in2 {
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px gray;
+}
+
+/* Fondo gatos */
+
+.fondo-indexp{
+  height: 53rem;  
+  background-image: url(../Img/Fondo-alimentop.jpg);  
+  background-repeat: no-repeat;  
+  background-size: cover;   
+  background-position: center;  
+  background-attachment: fixed; 
+}
+
+.indexcontp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  color: rgb(255, 255, 255);
+}
+
+.indexcontp h2 {
+  margin-top: 20rem;
+  text-shadow: 3px 3px gray;
+}
+
+.sub-in {
+  font-size: 60px;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px gray;
+}
+
+.sub-in2 {
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px gray;
+}
+
+/* Fondo Peceras */
+
+.fondo-indexpc{
+  height: 53rem;  
+  background-image: url(../Img/Fondo-acuario.jpg);  
+  background-repeat: no-repeat;  
+  background-size: cover;   
+  background-position: center;  
+  background-attachment: fixed; 
+}
+
+.indexcontpc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  color: rgb(255, 255, 255);
+}
+
+.indexcontpc h2 {
+  margin-top: 20rem;
+  text-shadow: 3px 3px gray;
+}
+
+.sub-in {
+  font-size: 60px;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px gray;
+}
+
+.sub-in2 {
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px gray;
+}
+
+/* Fondo contacto */
+
+.fondo-indexc{
+  height: 53rem;  
+  background-image: url(../Img/Contacto.jpg);  
+  background-repeat: no-repeat;  
+  background-size: cover;   
+  background-position: center;  
+  background-attachment: fixed; 
+}
+
+.indexcontc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  color: rgb(255, 255, 255);
+}
+
+.indexcontc h2 {
+  margin-top: 20rem;
+  text-shadow: 3px 3px gray;
+}
+
+.sub-in {
+  font-size: 60px;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px gray;
+}
+
+.sub-in2 {
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px gray;
+}
+
+
 
 /* FOOTER */
 .footer {
@@ -184,49 +329,26 @@ h2 {
   font-size: xx-large;
 }
 
-h1 {
-  font-family: "Oswald", sans-serif;
-}
 
-a {
-  font-family: "EB Garamond", serif;
-}
-
-p {
-  color: black;
-  font-size: medium;
-}
 
 .body-index {
   background-color: #51bbfe;
 }
 
 .body-perros {
-  background-image: url(https://cdn.pixabay.com/photo/2016/04/05/13/55/design-1309492_960_720.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+ background-color: rgba(0, 0, 0, 0.733);
 }
 
 .body-gatos {
-  background-image: url(https://cdn.pixabay.com/photo/2016/04/05/13/55/design-1309492_960_720.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.733);
 }
 
 .body-peceras {
-  background-image: url(https://cdn.pixabay.com/photo/2016/04/05/13/55/design-1309492_960_720.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.733);
 }
 
 .body-form {
-  background-image: url(https://cdn.pixabay.com/photo/2016/04/05/13/55/design-1309492_960_720.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.733);
 }
 
 .section {
