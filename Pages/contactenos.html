@@ -21,7 +21,7 @@
 
 
     <header class="header">
-       
+
 
         <!-- NAVBAR -->
 
@@ -60,44 +60,44 @@
 
 
 
-<!-- MAIN -->
+    <!-- MAIN -->
 
-<main class="fondo-indexc">
-    <div class="indexcontc">
-        <h2 class="sub-in text-dark text-center"></h2>
-        <p class="sub-in2 text-dark text-center"></p>
-    </div>
-</main>
+    <main class="fondo-indexc">
+        <div class="indexcontc">
+            <h2 class="sub-in text-dark text-center">CONTACTO</h2>
+            <p class="sub-in2 text-dark text-center"></p>
+        </div>
+    </main>
 
 
 
     <!-- Formulario de contacto -->
-    <section class="section">
-        <h2>Contacto</h2>
-        <p>Complete el formulario</p>
-        <br>
-        <form action="#" method="get">
-            <input type="text" placeholder="Nombre y apellido" name="Nombre" required>
-            <br><br>
-            <input type="number" placeholder="DNI" name="Documento" required>
-            <br><br>
-            <input type="text" placeholder="Localidad" name="Ciudad" required>
-            <br><br>
-            <input type="number" placeholder="Teléfono" name="Teléfono" required>
-            <br><br>
-            <input type="email" placeholder="Email" name="Email" required>
-            <br><br>
-            <label for="sexo">Hombre</label>
-            <input type="radio" name="sexo" value="Hombre">
-            <label for="sexo">Mujer</label>
-            <input type="radio" name="sexo" value="Mujer">
-            <br><br>
-            <label>Acepta términos y condiciones</label>
-            <input type="checkbox" name="Acepta" value="si" required>
-            <br><br>
-            <button class="#">Enviar</button>
-            <button class="#">Reestablecer</button>
-        </form>
+    <section>
+        <div class="contenedorformulario">
+            <form action="#" method="post" class="contact_form">
+                <p>COMPLETE EL FORMULARIO</p>
+                <div class="name">
+                    <label for="name"></label>
+                    <input type="text" placeholder="Nombre" name="name" id="name_input" required>
+                </div>
+                <div class="email">
+                    <label for="email"></label>
+                    <input type="text" placeholder="Email" name="email" id="email_input" required>
+                </div>
+                <div class="telephone">
+                    <label for="name"></label>
+                    <input type="text" placeholder="Teléfono" name="telephone" id="telephone_input" required>
+                </div>
+                <div class="message">
+                    <label for="message"></label>
+                    <textarea name="message" placeholder="Deje su consulta" id="message_input" cols="30" rows="5"
+                        required></textarea>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="enviar" id="form_buttom">
+                </div>
+            </form>
+        </div>
     </section>
     <!-- Footer//Pie de página -->
 

@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+/* Fuente */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+
 /* NAVBAR Y LOGO */
 
 .navlocal {
@@ -75,42 +82,6 @@ transform: scale(1.1);
 
 /* Fondo perros */
 
-.fondo-indexg{
-  height: 53rem;  
-  background-image: url(../Img/Fondo-alimentog.jpg);  
-  background-repeat: no-repeat;  
-  background-size: cover;   
-  background-position: center;  
-  background-attachment: fixed; 
-}
-
-.indexcontg {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  color: rgb(255, 255, 255);
-}
-
-.indexcontg h2 {
-  margin-top: 20rem;
-  text-shadow: 3px 3px gray;
-}
-
-.sub-in {
-  font-size: 60px;
-  font-family: 'Pacifico', cursive;
-  text-shadow: 2px 2px gray;
-}
-
-.sub-in2 {
-  font-size: 30px;
-  font-family: 'Pacifico', cursive;
-  text-shadow: 2px 2px gray;
-}
-
-/* Fondo gatos */
-
 .fondo-indexp{
   height: 53rem;  
   background-image: url(../Img/Fondo-alimentop.jpg);  
@@ -144,6 +115,44 @@ transform: scale(1.1);
   font-family: 'Pacifico', cursive;
   text-shadow: 2px 2px gray;
 }
+
+
+/* Fondo gatos */
+
+.fondo-indexg{
+  height: 53rem;  
+  background-image: url(../Img/Fondo-alimentog.jpg);  
+  background-repeat: no-repeat;  
+  background-size: cover;   
+  background-position: center;  
+  background-attachment: fixed; 
+}
+
+.indexcontg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  color: rgb(255, 255, 255);
+}
+
+.indexcontg h2 {
+  margin-top: 20rem;
+  text-shadow: 3px 3px grey;
+}
+
+.sub-in {
+  font-size: 60px;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px gray;
+}
+
+.sub-in2 {
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px gray;
+}
+
 
 /* Fondo Peceras */
 
@@ -202,6 +211,8 @@ transform: scale(1.1);
 
 .indexcontc h2 {
   margin-top: 20rem;
+  background-color: rgba(161, 161, 161, 0.596);
+  border-radius: 30px;
   text-shadow: 3px 3px gray;
 }
 
@@ -216,6 +227,60 @@ transform: scale(1.1);
   font-family: 'Pacifico', cursive;
   text-shadow: 2px 2px gray;
 }
+
+
+/* FORMULARIO */
+
+.contenedorformulario {
+  border: solid 3px black;
+  max-width: 768px;
+  margin: 35px auto;
+  position: relative;
+  background-color: beige;
+}
+
+form {
+  padding: 37.5px;
+  margin: 50px 0;
+}
+
+.name {
+  float: left;
+  width: 45%;
+}
+
+.email {
+  float: right;
+  width: 45%;
+}
+
+.telephone {
+  width: 100%;
+}
+
+.message {
+  float: none;
+}
+
+#form_button {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.form {
+  background-color: beige;
+}
+
 
 
 
@@ -277,7 +342,7 @@ transform: scale(1.1);
   padding: 15px;
 }
 
-/* CARROUSEL */
+
 
 
 
@@ -312,23 +377,12 @@ transform: scale(1.1);
   }
 }
 
-input {
-  background-color: #8cdbff;
-  border: none;
-  transition: 1s;
-}
-input:focus {
-  background-color: white;
-  border: none;
-  transform: scale(1.1);
-}
 
 h2 {
   font-family: "Source Sans Pro", sans-serif;
   text-align: center;
   font-size: xx-large;
 }
-
 
 
 .body-index {
@@ -351,7 +405,7 @@ h2 {
   background-color: rgba(0, 0, 0, 0.733);
 }
 
-.section {
+/* .section {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -360,4 +414,4 @@ h2 {
 }
 .section h2 {
   text-align: center;
-}
+} */
