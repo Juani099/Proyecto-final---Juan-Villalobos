@@ -6,10 +6,8 @@
 
 /* Fuente */
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
 /* NAVBAR Y LOGO */
 
@@ -24,12 +22,12 @@
   padding: 30px;
 }
 
-.nav-item{
+.nav-item {
   transition: all 0.4s;
   margin-top: 20px;
 }
-.nav-item:hover{
-transform: scale(1.1);
+.nav-item:hover {
+  transform: scale(1.1);
 }
 
 /* LOGO */
@@ -46,13 +44,13 @@ transform: scale(1.1);
 
 /* FONDO INDEX */
 
-.fondo-index{
-  height: 53rem;  
-  background-image: url(../Img/Background.jpg);  
-  background-repeat: no-repeat;  
-  background-size: cover;   
-  background-position: center;  
-  background-attachment: fixed; 
+.fondo-index {
+  height: 53rem;
+  background-image: url(../Img/Background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .indexcont {
@@ -70,25 +68,25 @@ transform: scale(1.1);
 
 .sub-in {
   font-size: 60px;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   text-shadow: 2px 2px gray;
 }
 
 .sub-in2 {
   font-size: 30px;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   text-shadow: 2px 2px gray;
 }
 
 /* Fondo perros */
 
-.fondo-indexp{
-  height: 53rem;  
-  background-image: url(../Img/Fondo-alimentop.jpg);  
-  background-repeat: no-repeat;  
-  background-size: cover;   
-  background-position: center;  
-  background-attachment: fixed; 
+.fondo-indexp {
+  height: 53rem;
+  background-image: url(../Img/Fondo-alimentop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .indexcontp {
@@ -101,31 +99,32 @@ transform: scale(1.1);
 
 .indexcontp h2 {
   margin-top: 20rem;
+  background-color: rgba(161, 161, 161, 0.596);
+  border-radius: 30px;
   text-shadow: 3px 3px gray;
 }
 
 .sub-in {
   font-size: 60px;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   text-shadow: 2px 2px gray;
 }
 
 .sub-in2 {
   font-size: 30px;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   text-shadow: 2px 2px gray;
 }
 
-
 /* Fondo gatos */
 
-.fondo-indexg{
-  height: 53rem;  
-  background-image: url(../Img/Fondo-alimentog.jpg);  
-  background-repeat: no-repeat;  
-  background-size: cover;   
-  background-position: center;  
-  background-attachment: fixed; 
+.fondo-indexg {
+  height: 53rem;
+  background-image: url(../Img/Fondo-alimentog.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .indexcontg {
@@ -138,31 +137,32 @@ transform: scale(1.1);
 
 .indexcontg h2 {
   margin-top: 20rem;
+  background-color: rgba(161, 161, 161, 0.596);
+  border-radius: 30px;
   text-shadow: 3px 3px grey;
 }
 
 .sub-in {
   font-size: 60px;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   text-shadow: 2px 2px gray;
 }
 
 .sub-in2 {
   font-size: 30px;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   text-shadow: 2px 2px gray;
 }
 
-
 /* Fondo Peceras */
 
-.fondo-indexpc{
-  height: 53rem;  
-  background-image: url(../Img/Fondo-acuario.jpg);  
-  background-repeat: no-repeat;  
-  background-size: cover;   
-  background-position: center;  
-  background-attachment: fixed; 
+.fondo-indexpc {
+  height: 53rem;
+  background-image: url(../Img/Fondo-acuario.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .indexcontpc {
@@ -175,30 +175,32 @@ transform: scale(1.1);
 
 .indexcontpc h2 {
   margin-top: 20rem;
+  background-color: rgba(161, 161, 161, 0.596);
+  border-radius: 30px;
   text-shadow: 3px 3px gray;
 }
 
 .sub-in {
   font-size: 60px;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   text-shadow: 2px 2px gray;
 }
 
 .sub-in2 {
   font-size: 30px;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   text-shadow: 2px 2px gray;
 }
 
 /* Fondo contacto */
 
-.fondo-indexc{
-  height: 53rem;  
-  background-image: url(../Img/Contacto.jpg);  
-  background-repeat: no-repeat;  
-  background-size: cover;   
-  background-position: center;  
-  background-attachment: fixed; 
+.fondo-indexc {
+  height: 53rem;
+  background-image: url(../Img/Contacto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .indexcontc {
@@ -218,25 +220,25 @@ transform: scale(1.1);
 
 .sub-in {
   font-size: 60px;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   text-shadow: 2px 2px gray;
 }
 
 .sub-in2 {
   font-size: 30px;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   text-shadow: 2px 2px gray;
 }
-
 
 /* FORMULARIO */
 
 .contenedorformulario {
   border: solid 3px black;
-  max-width: 768px;
+  max-width: 750px;
   margin: 35px auto;
   position: relative;
   background-color: beige;
+  box-shadow: 7px 13px 37px #000;
 }
 
 form {
@@ -244,45 +246,69 @@ form {
   margin: 50px 0;
 }
 
-.name {
+#name_input {
   float: left;
-  width: 45%;
+  width: 35%;
+  border: none;
+  margin-bottom: 20px;
 }
 
-.email {
+#email_input {
   float: right;
-  width: 45%;
-}
-
-.telephone {
   width: 100%;
+  margin-bottom: 20px;
+  border: none;
 }
 
-.message {
+#telephone_input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+#message_input {
   float: none;
+  width: 100%;
+  border: none;
 }
 
-#form_button {
+
+
+.submit input {
+  display: flex;
+  justify-content: center;
+  border: none;
+  margin: auto;
+  margin-top: 15px;
+  width: 50%;
+  background: #1f53c5;
+  padding: 12px;
+  color: white;
+  font-size: 16px;
+}
+
+/* #form_button {
   background: none;
   border: solid 2px #474544;
   color: #474544;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Helvetica', Arial, sans-serif;
+  font-family: "Helvetica", Arial, sans-serif;
   font-size: 0.875em;
   font-weight: bold;
   outline: none;
   padding: 20px 35px;
   text-transform: uppercase;
   transition: all 0.3s;
+} */
+
+.contact_form p {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
-.form {
-  background-color: beige;
-}
-
-
-
 
 /* FOOTER */
 .footer {
@@ -342,10 +368,6 @@ form {
   padding: 15px;
 }
 
-
-
-
-
 /* MEDIAS */
 
 @media (max-width: 500px) {
@@ -377,20 +399,18 @@ form {
   }
 }
 
-
 h2 {
   font-family: "Source Sans Pro", sans-serif;
   text-align: center;
   font-size: xx-large;
 }
 
-
 .body-index {
   background-color: #51bbfe;
 }
 
 .body-perros {
- background-color: rgba(0, 0, 0, 0.733);
+  background-color: rgba(0, 0, 0, 0.733);
 }
 
 .body-gatos {
@@ -404,14 +424,3 @@ h2 {
 .body-form {
   background-color: rgba(0, 0, 0, 0.733);
 }
-
-/* .section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-}
-.section h2 {
-  text-align: center;
-} */
