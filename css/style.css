@@ -8,7 +8,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
 
 /* NAVBAR Y LOGO */
 
@@ -69,26 +69,19 @@
   text-shadow: 3px 3px gray;
 }
 
-.sub-in {
-  font-size: 60px;
-  font-family: "Pacifico", cursive;
-  text-shadow: 2px 2px gray;
-}
-
-.sub-in2 {
-  font-size: 30px;
-  font-family: "Pacifico", cursive;
-  text-shadow: 2px 2px gray;
-}
-
-/* Fondo perros */
+/* Fondo Alimentos */
 
 .tituloh2 {
   display: flex;
   justify-content: center;
   text-shadow: 2px 2px gray;
   background-color: rgba(161, 161, 161, 0.596);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.alimento-h2 h2 {
+  font-family: fantasy;
+  margin-right: 100px;
 }
 
 .fondo-indexp {
@@ -115,19 +108,7 @@
   text-shadow: 3px 3px gray;
 }
 
-.sub-in {
-  font-size: 60px;
-  font-family: "Pacifico", cursive;
-  text-shadow: 2px 2px gray;
-}
-
-.sub-in2 {
-  font-size: 30px;
-  font-family: "Pacifico", cursive;
-  text-shadow: 2px 2px gray;
-}
-
-/* Fondo gatos */
+/* Fondo Accesorios */
 
 .fondo-indexg {
   height: 53rem;
@@ -153,19 +134,7 @@
   text-shadow: 3px 3px grey;
 }
 
-.sub-in {
-  font-size: 60px;
-  font-family: "Pacifico", cursive;
-  text-shadow: 2px 2px gray;
-}
-
-.sub-in2 {
-  font-size: 30px;
-  font-family: "Pacifico", cursive;
-  text-shadow: 2px 2px gray;
-}
-
-/* Fondo Peceras */
+/* Fondo Nosotros */
 
 .fondo-indexpc {
   height: 53rem;
@@ -184,23 +153,15 @@
   color: rgb(255, 255, 255);
 }
 
-.indexcontpc h1 {
-  margin-top: 10rem;
-  font-family: 'Abril Fatface';
-  font-size: 150px;
-  font-style: italic;
-  font-weight: 500;
-}
-
-.sub-in {
+.sub-in1 {
   font-size: 60px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins";
   text-shadow: 2px 2px gray;
 }
 
 .sub-in2 {
-  font-size: 30px;
-  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-shadow: 2px 2px gray;
   background-color: rgba(128, 128, 128, 0.39);
 }
@@ -307,21 +268,61 @@ form {
 }
 
 /* FOOTER */
+
+:root {
+  --facebook: #3b5999;
+  --instagram: #e4405f;
+  --twitter: #55acee;
+}
+
 .footer {
   background-color: rgba(0, 0, 0, 0.925);
   height: 100px;
 }
+
 .footer ul {
   color: black;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.footer ul p {
-  color: white;
+
+.footer ul li {
+  display: flex;
+  margin: 0 5px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
 }
-.footer ul li a {
-  color: white;
+
+.footer ul li a{
+  background: #333;
+  color: #fff;
+  line-height: 50px;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.footer ul:hover a{
+  filter: blur(2px);
+}
+
+.footer ul li a:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4);
+  filter: none;
+}
+
+.footer ul li .facebook:hover{
+  background: var(--facebook);
+}
+
+.footer ul li .instagram:hover{
+  background: var(--instagram);
+}
+
+.footer ul li .twitter:hover{
+  background: var(--twitter);
 }
 
 /* Estilo de cards */
@@ -380,10 +381,6 @@ form {
   transition: 0.3s;
   color: #000;
 }
-
-
-
-
 
 /* Tamaño de las CARDS */
 
