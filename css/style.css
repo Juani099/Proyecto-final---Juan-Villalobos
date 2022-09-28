@@ -8,6 +8,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
 
 /* NAVBAR Y LOGO */
 
@@ -168,7 +169,7 @@
 
 .fondo-indexpc {
   height: 53rem;
-  background-image: url(../Img/Fondo-acuario.jpg);
+  background-image: url(../Img/Fondonosotros2.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -183,16 +184,17 @@
   color: rgb(255, 255, 255);
 }
 
-.indexcontpc h2 {
-  margin-top: 20rem;
-  background-color: rgba(161, 161, 161, 0.596);
-  border-radius: 30px;
-  text-shadow: 3px 3px gray;
+.indexcontpc h1 {
+  margin-top: 10rem;
+  font-family: 'Abril Fatface';
+  font-size: 150px;
+  font-style: italic;
+  font-weight: 500;
 }
 
 .sub-in {
   font-size: 60px;
-  font-family: "Pacifico", cursive;
+  font-family: 'Poppins', sans-serif;
   text-shadow: 2px 2px gray;
 }
 
@@ -200,6 +202,7 @@
   font-size: 30px;
   font-family: "Pacifico", cursive;
   text-shadow: 2px 2px gray;
+  background-color: rgba(128, 128, 128, 0.39);
 }
 
 /* Fondo contacto */
